@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a27b5c;
+  color: whitesmoke;
+}
+.nav-bar {
+  position: sticky;
+  top: 1px;
+}
+nav h1 {
+  font-size: 3rem;
+  color: white;
+}
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  gap: 3em;
+}
+.nav-bar button {
+  padding: 10px 20px;
+}
+.sing-in {
+  position: absolute;
+  width: 20%;
+
+  right: 8.5em;
+  opacity: 0.9;
+  background-color: rgb(240, 231, 231);
+  text-align: center;
+  padding: 10px;
+
+  display: none;
+}
+
+.sing-in li {
+  list-style: none;
+  padding: 10px;
+}
+.sing-in .btn {
+  padding: 3px 4px;
+  margin-top: 20px;
+}
+
+.header {
+  background-image: url(images/welcome.jpg);
+  height: 400px;
+  padding: 4em;
+
+  text-align: center;
+  color: rgb(160, 142, 142);
+}
+.header h1 {
+  font-size: 4rem;
+}
+.header p {
+  font-size: 2rem;
+}
+.about {
+  display: flex;
+  margin-top: 2em;
+
+  text-align: center;
+}
+
+.about img {
+  width: 500px;
+
+  height: 400px;
+}
+.about-detial {
+  padding: 15px;
+}
+.about-detial h3 {
+  font-size: 3rem;
+  padding: 15px;
+}
+.about-detial p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.about-detial button {
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+.about-detial button:hover {
+  box-shadow: -4px 4px 2px black;
+  transform: translate(8px, -8px);
+  transition: all 2ms ease-in-out;
+  cursor: pointer;
+  width: auto;
+}
+
+.food-items {
+  position: relative;
+  width: 80%;
+  top: 30px;
+}
+.food-items .images {
+  display: none;
+}
+.food-items .visible {
+  display: block;
+}
+.food-items img {
+  width: 100%;
+  height: 400px;
+}
+.search-menu {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.search-menu h3 {
+  font-size: 2rem;
+}
+.search-bar {
+  width: 62%;
+  margin-right: 20px;
+  text-align: center;
+}
+.search-bar label {
+  font-size: 1.5rem;
+}
+.search-bar input {
+  padding: 10px 60px;
+  margin-top: 40px;
+}
+
+.button {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.button button {
+  padding: 15px;
+  border-radius: 30px;
+}
+.choose-bar {
+  text-align: center;
+  margin-top: 50px;
+}
+.choose-bar button {
+  padding: 10px 20px;
+}
+
+.card {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.food-menu {
+  width: 250px;
+  border: 1px solid black;
+}
+.food-menu img {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.food-menu h3 {
+  font-size: 1.5rem;
+}
+.food-menu span {
+  font-size: 1.5rem;
+}
+.food-menu button {
+  display: block;
+  margin-left: 60px;
+  padding: 4px 15px;
+  margin-bottom: 10px;
+
+  background-color: burlywood;
+  cursor: pointer;
+}
+
+.blog {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: center;
+  line-height: 2rem;
+  justify-content: space-around;
+}
+.food-blog {
+  width: 300px;
+  border: 1px solid black;
+}
+.food-blog img {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.food-blog h5 {
+  font-size: 1.5rem;
+}
+.food-blog p {
+  font-size: 1rem;
+}
+h4 {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+.bottom {
+  margin-top: 40px;
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+  line-height: 3rem;
+  background-color: #a27b5c;
+  gap: 30px;
+}
+.adress {
+  width: 300px;
+}
