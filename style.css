@@ -247,3 +247,23 @@ h4 {
 .adress {
   width: 300px;
 }
+@media screen and (max-width: 960px) {
+  .container nav ul {
+    display: none;
+  }
+  .container .header {
+    width: 50%;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+  .header p {
+    font-size: 1rem;
+  }
+  .about img {
+    width: 300px;
+  }
+  .about-detial {
+    font-size: 1rem;
+  }
+}
